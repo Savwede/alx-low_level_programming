@@ -4,6 +4,11 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ * prints either a number is -ve, 0 or +ve 
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
