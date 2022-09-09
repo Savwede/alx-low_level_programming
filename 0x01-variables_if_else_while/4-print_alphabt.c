@@ -16,7 +16,7 @@ int main(void)
 	let =  'a';
 	while (let <= 'z')
 	{
-		if (let == 'e' || let = 'q')
+		if (let == 'e' || let == 'q')
 		{
 			continue;
 		}
