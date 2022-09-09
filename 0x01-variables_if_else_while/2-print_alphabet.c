@@ -19,6 +19,6 @@ int main(void)
 		putchar(let);
 		let++;
 	}
-
+	putchar('\n');
 	return (0);
 }
