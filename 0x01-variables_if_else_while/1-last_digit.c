@@ -4,6 +4,11 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ * Print wether a number 'n' is +ve, 0 or -ve
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -16,7 +21,7 @@ int main(void)
 	if (ld > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, ld);
-	} else if (lb == 0)
+	} else if (ld == 0)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, lb);
 	} else if (ld < 6 && ld != 0)
