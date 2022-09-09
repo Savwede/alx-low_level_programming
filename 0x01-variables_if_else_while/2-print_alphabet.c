@@ -17,6 +17,7 @@ int main(void)
 	while (let <= 'z')
 	{
 		putchar(let);
+		a++;
 	}
 
 	return (0);
