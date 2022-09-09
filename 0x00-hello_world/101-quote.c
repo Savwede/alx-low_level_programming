@@ -9,7 +9,7 @@
 
 int main(void)
 {
-char str[] = "$(echo \"and that piece of art is useful\" - Dora Korpar, 2015-10-19\")" 
+char str[] = "$(echo \"and that piece of art is useful\" - Dora Korpar, 2015-10-19\")"; 
 /**/
 system(str);
  return (0);
