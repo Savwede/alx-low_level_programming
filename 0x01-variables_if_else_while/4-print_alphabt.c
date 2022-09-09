@@ -16,12 +16,17 @@ int main(void)
 	let =  'a';
 	while (let <= 'z')
 	{
-		if (let == 'e' || let == 'q')
+		if (let == 'e')
 		{
-			continue;
+			let++;
+		} else if (let == 'q')
+		{
+			let++;
+		} else
+		{
+			putchar(let);
+			let++;
 		}
-		putchar(let);
-		let++;
 	}
 	putchar('\n');
 	return (0);
