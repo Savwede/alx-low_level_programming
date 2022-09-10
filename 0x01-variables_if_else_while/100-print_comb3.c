@@ -15,42 +15,6 @@ int main(void)
 	int s;
 
 	i = 0;
-	while (i <= 8)
-	{
-		s = 1;
-		while (s < 10)
-		{
-			putchar(i + '0');
-			putchar(s + '0');
-			if (i < 9 && s < 9)
-			{
-				putchar(',');
-				putchar(' ');
-			}
-		}
-		i++;
-	}
-	putchar('\n');
-
-	return (0);
-}
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
-/**
- * main - Entry point
- * C - Variables, if, else, while
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	int i;
-	int s;
-
-	i = 0;
 	while (i < 10)
 	{
 		s = 1;
