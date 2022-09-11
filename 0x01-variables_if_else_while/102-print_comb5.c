@@ -13,7 +13,7 @@ int main(void)
 {
 	int i;
 	int j;
-	
+
 	for (i = 0; i <= 98; i++)
 	{
 		for (j = i + 1; j <= 99; j++)
@@ -25,7 +25,6 @@ int main(void)
 			putchar((j % 10) + '0');
 			if (i == 98 && j == 99)
 				continue;
-				
 			putchar(',');
 			putchar(' ');
 		}
