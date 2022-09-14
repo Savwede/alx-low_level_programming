@@ -9,13 +9,13 @@
 int main(void)
 {
 	int i;
-	long long int prev = 1;
-	long long int nxt = 2;
+	long int prev = 1;
+	long int nxt = 2;
 
 	printf("%lld, ", prev);
 	for (i = 0; i < 99; i++)
 	{
-		long long int cur = nxt;
+		long int cur = nxt;
 
 		printf("%lld, ", nxt);
 		nxt += prev;
