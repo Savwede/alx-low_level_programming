@@ -4,8 +4,8 @@
 /**
  * _isalpha - checks if a character is an alphabelt
  * or not
- *
- * return: 1 for alphabelt or 0 otherwise
+ * @c input
+ * Return: 1 for alphabelt or 0 otherwise
  */
 
 int _isalpha(int c)

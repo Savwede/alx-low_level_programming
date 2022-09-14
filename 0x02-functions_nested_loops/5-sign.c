@@ -2,6 +2,7 @@
 /**
  * print_sign - checks if a number is +ve, 0 or -ve
  *
+ * @n input int
  * Return: 1 for +ve,
  * 0 for zero and -1 for -ve
  */
