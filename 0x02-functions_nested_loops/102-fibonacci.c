@@ -13,7 +13,7 @@ int main(void)
 	long int nxt = 2;
 
 	printf("%ld, ", prev);
-	for (i = 0; i < 50; i++)
+	for (i = 0; i < 49; i++)
 	{
 		long int cur = nxt;
 
