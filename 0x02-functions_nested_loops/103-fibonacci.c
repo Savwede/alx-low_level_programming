@@ -19,8 +19,9 @@ int main(void)
 			break;
 		if (nxt % 2 == 0)
 			sum += nxt;
-		int cur = nxt;
+		int cur;
 
+		cur = nxt;
 		nxt += prev;
 		prev = cur;
 	}
