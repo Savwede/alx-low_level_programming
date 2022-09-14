@@ -12,12 +12,12 @@ int main(void)
 	long int prev = 1;
 	long int nxt = 2;
 
-	printf("%lld, ", prev);
+	printf("%ld, ", prev);
 	for (i = 0; i < 99; i++)
 	{
 		long int cur = nxt;
 
-		printf("%lld, ", nxt);
+		printf("%ld, ", nxt);
 		nxt += prev;
 		prev = cur;
 	}
