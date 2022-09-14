@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * main - prints the sum of the even-valued terms not exceeding 4,000,000
- * starting with 1 and 2
+ * starting with 1 and 2.
  * Return: On success 0.
  * On error, -1 is returned, .
  */
