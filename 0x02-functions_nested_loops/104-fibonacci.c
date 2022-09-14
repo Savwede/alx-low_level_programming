@@ -17,7 +17,7 @@ int main(void)
 	{
 		long int cur = nxt;
 
-		printf("%lb, ", nxt);
+		printf("%ld, ", nxt);
 		nxt += prev;
 		prev = cur;
 	}
