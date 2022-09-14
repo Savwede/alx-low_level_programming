@@ -1,7 +1,8 @@
 #include "main.h"
 /**
 * print_last_digit - computes the last digit of an integer.
-* @val input
+* @val: input
+*
 * Return: Always +ve value,
 */
 int print_last_digit(int val)
@@ -12,6 +13,6 @@ int print_last_digit(int val)
 	{
 		abs = (val * (-1));
 	}
-	_putchar(abs % 10 + '0');
-	return (abs % 10);
+	_putchar((abs % 10) + '0');
+	return ((abs % 10));
 }

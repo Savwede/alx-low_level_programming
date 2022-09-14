@@ -2,7 +2,7 @@
 /**
  * _abs - computes the absolute value of an integer.
  *
- * @val input parameter
+ * @val: input parameter
  * Return: Always +ve value,
  */
 int _abs(int val)

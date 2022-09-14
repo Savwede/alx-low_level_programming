@@ -4,7 +4,7 @@
 /**
  * _isalpha - checks if a character is an alphabelt
  * or not
- * @c input
+ * @c: input
  * Return: 1 for alphabelt or 0 otherwise
  */
 
