@@ -9,6 +9,7 @@
 int main(void)
 {
 	int i;
+	int cur;
 	int prev = 1;
 	int nxt = 2;
 	int sum = 0;
@@ -19,8 +20,6 @@ int main(void)
 			break;
 		if (nxt % 2 == 0)
 			sum += nxt;
-		int cur;
-
 		cur = nxt;
 		nxt += prev;
 		prev = cur;
