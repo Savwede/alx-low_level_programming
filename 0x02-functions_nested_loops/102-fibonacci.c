@@ -17,7 +17,10 @@ int main(void)
 	{
 		long int cur = nxt;
 
-		printf("%ld, ", nxt);
+		if (i == 48)
+			printf("%ld", nxt);
+		else
+			printf("%ld, ", nxt);
 		nxt += prev;
 		prev = cur;
 	}
