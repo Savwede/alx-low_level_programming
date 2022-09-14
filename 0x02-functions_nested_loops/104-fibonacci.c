@@ -9,15 +9,15 @@
 int main(void)
 {
 	int i;
-	long int prev = 1;
-	long int nxt = 2;
+	long long int prev = 1;
+	long long int nxt = 2;
 
-	printf("%ld, ", prev);
+	printf("%lld, ", prev);
 	for (i = 0; i < 99; i++)
 	{
-		long int cur = nxt;
+		long long int cur = nxt;
 
-		printf("%ld, ", nxt);
+		printf("%lld, ", nxt);
 		nxt += prev;
 		prev = cur;
 	}
