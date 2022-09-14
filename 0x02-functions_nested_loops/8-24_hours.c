@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* jack_bauer - computes every minute in 24 hrs
-*
-* return: Always +ve value,
-*/
+ * jack_bauer - computes every minute in 24 hrs
+ *
+ * Return: Always +ve value,
+ */
 void jack_bauer(void)
 {
 	int i;
@@ -21,6 +21,5 @@ void jack_bauer(void)
 			_putchar('\n');
 		}
 	}
-
 	return (0);
 }
