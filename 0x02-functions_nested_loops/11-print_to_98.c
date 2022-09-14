@@ -29,5 +29,5 @@ void print_to_98(int n)
 				printf("%d, ", num);
 		}
 	}
-	printf('\n');
+	printf("\n");
 }
