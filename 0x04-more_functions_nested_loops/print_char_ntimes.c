@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_char_ntimes - prints a given character,
  * a given number of times to the terminal
