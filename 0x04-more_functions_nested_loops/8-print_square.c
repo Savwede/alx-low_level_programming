@@ -33,5 +33,6 @@ void print_square(int n)
 		print_char_ntimes('#', n);
 		_putchar('\n');
 	}
+if (n == 0)
 	_putchar('\n');
 }
