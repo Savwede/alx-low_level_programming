@@ -36,5 +36,6 @@ void print_triangle(int size)
 		print_char_ntimes('#', i);
 		_putchar('\n');
 	}
+if (n == 0)
 	_putchar('\n');
 }
