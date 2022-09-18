@@ -1,38 +1,26 @@
 #include "main.h"
-/**
- * print_char_ntimes - prints a given character,
- * a given number of times to the terminal
- * @c: the character to be printed
- * @n: is the number of times the space character should be printed
- *
- * Return: void.
- */
-
-void print_char_ntimes(char c, int n)
-{
-	int i;
-
-	for (i = 0; i < n; i++)
-	{
-		_putchar(c);
-	}
-}
 
 /**
- * print_square - draws a square in the terminal
- * @n: is the lenght of the square to be printed
- *
+ * print_square - check for a digit
+ * @n: number of _ to be printed
  * Return: void
  */
+
 void print_square(int n)
 {
-	int i;
+	int i = 0, ii;
 
-	for (i = 0; i < n; i++)
+	while (i < n && n > 0)
 	{
-		print_char_ntimes('#', n);
+		ii = 0;
+		while (ii < n)
+		{
+			_putchar('#');
+			ii++;
+		}
 		_putchar('\n');
+		i++;
 	}
-if (n == 0)
-	_putchar('\n');
+	if (i == 0)
+		_putchar('\n');
 }

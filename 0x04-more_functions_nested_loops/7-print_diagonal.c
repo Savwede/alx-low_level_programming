@@ -1,40 +1,28 @@
 #include "main.h"
-void spaces(int n);
 
 /**
- * print_diagonal - draws a diagonal line in the terminal
- * @n: is the number of times the character '\' should be printed
- *
- * Return: On success 1.
- * On error, 0
+ * print_diagonal - diagonal lines made of backslashes
+ * @n: number of \ to be printed
+ * Return: void
  */
+
 void print_diagonal(int n)
 {
-	int i;
+	int i = 0, ii;
 
-	for (i = 0; i < n; i++)
+	while (i < n && n > 0)
 	{
-		spaces(i);
+		ii = 0;
+		while (ii < i)
+		{
+			_putchar(' ');
+			ii++;
+		}
+
 		_putchar('\\');
 		_putchar('\n');
+		i++;
 	}
-if (n == 0)
-	_putchar('\n');
-}
-
-/**
- * spaces - prints space in the terminal
- * @n: is the number of times the space character should be printed
- *
- * Return: void.
- */
-
-void spaces(int n)
-{
-	int i;
-
-	for (i = 0; i < n; i++)
-	{
-		_putchar(' ');
-	}
+	if (i == 0)
+		_putchar('\n');
 }
