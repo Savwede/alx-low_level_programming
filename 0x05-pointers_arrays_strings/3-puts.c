@@ -3,7 +3,7 @@
 /**
  * _puts -  takes a pointer to a string
  * and prints a string, followed by a new line, to stdou
- * @*str: The pointer
+ * @str: The pointer
  *
  * Return: void
  */

@@ -4,7 +4,7 @@
  * print_rev -  takes a pointer to a string
  * and prints a string in reverse,
  * followed by a new line, to stdou
- * @*s: The pointer
+ * @s: The pointer
  *
  * Return: void
  */
