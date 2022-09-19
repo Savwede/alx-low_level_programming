@@ -10,10 +10,8 @@
 
 void _puts(char *str)
 {
-	char *s;
 	int i = 0, len = strlen(str);
 
-	s = str;
 	while (i < len)
 	{
 		_putchar(*str);
