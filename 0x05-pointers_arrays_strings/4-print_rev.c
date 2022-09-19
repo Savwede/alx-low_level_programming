@@ -11,10 +11,7 @@
 
 void print_rev(char *s)
 {
-	char *str;
 	int i = 0, len = strlen(s);
-
-	str = s;
 
 	if (len > 1)
 	{
