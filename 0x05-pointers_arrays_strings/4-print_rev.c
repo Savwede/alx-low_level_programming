@@ -11,11 +11,11 @@
 
 void print_rev(char *s)
 {
-	int len = strlen(s);
+	int i, tmp, len = strlen(s);
 
-	if (len > 1)
+	for (i = 0; i < len; i++)
 	{
-		print_rev(s++);
+		_putchar(s[len - i - 1]);
 	}
-	_putchar(*s);
+	_putchar('\n');
 }
