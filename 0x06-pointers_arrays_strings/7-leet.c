@@ -17,9 +17,9 @@ char *leet(char *src)
 	s = "aeotl";
 	num = "43071";
 	sl = strlen(s);
-	for (i = 0; i < len - 1; i++)
+	for (i = 0; i < len; i++)
 	{
-		for (j = 0; j < sl - 1; j++)
+		for (j = 0; j < sl; j++)
 		{
 			if (toupper(ch[i]) == toupper(s[j]))
 			{
