@@ -4,7 +4,7 @@
  * reverse_array - recieves a pointer and length of an array
  * and reverse the positions of the array's elements
  * @a: pointer to the array
- * @nt: length
+ * @n: length
  *
  * Return: void
  */
@@ -17,6 +17,6 @@ void reverse_array(int *a, int n)
 	{
 		tmp = a[i];
 		a[i] = a[n - i - 1];
-		a[n - i- 1] = tmp;
+		a[n - i - 1] = tmp;
 	}
 }

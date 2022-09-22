@@ -4,7 +4,7 @@
  * _strncpy - copies sting src into string dest
  * @src: pointer to the source string
  * @dest: pointer to the destination string
- *
+ * @n: nuber of bytes to be coppied
  * Return: a pointer to the destination string
  */
 
