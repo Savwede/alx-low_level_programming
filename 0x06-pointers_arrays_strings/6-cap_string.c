@@ -15,7 +15,7 @@ char *cap_string(char *src)
 
 	s = src;
 	ch = ",;.!?\"(){}\n\t ";
-	for (i = 0; i < len; i++)
+	for (i = 0; i < len - 1; i++)
 	{
 		nxt = 1 + i;
 		if (strchr(ch, s[i]))
