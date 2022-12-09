@@ -19,12 +19,16 @@ int main(void)
 	add_dnodeint_end(&head, 402);
 	add_dnodeint_end(&head, 1024);
 	print_dlistint(head);
-	printf("-----------------\n");
+	printf("------before adding-----------\n");
 	insert_dnodeint_at_index(&head, 5, 4096);
 	print_dlistint(head);
-	printf("-----------------\n");
+	printf("--------after index 5 insert---------\n");
 	insert_dnodeint_at_index(&head, 0, 1111);
 	print_dlistint(head);
+	printf("--------after index 0 insert---------\n");
+	insert_dnodeint_at_index(&head, 1, 22);
+	print_dlistint(head);
+	printf("--------after index 1 insert---------\n");
 	free_dlistint(head);
 	head = NULL;
 	return (EXIT_SUCCESS);
