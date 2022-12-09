@@ -19,6 +19,7 @@ int main(void)
     add_dnodeint_end(&head, 98);
     add_dnodeint_end(&head, 402);
     add_dnodeint_end(&head, 1024);
+    printf("problem not here\n");
     sum = sum_dlistint(head);
     printf("sum = %d\n", sum);
     free_dlistint(head);
