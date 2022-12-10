@@ -24,18 +24,12 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	prev = tmp->prev;
 	next = tmp->next;
 	if (prev != NULL)
-	{
-		printf("prev: %d ....", prev->n);
 		prev->next = next;
-	}
 	else
 		*head = next;
 
 	if (next != NULL)
-	{
-		printf("next: %d \n", next->n);
 		next->prev = prev;
-	}
 
 	free(tmp);
 	return (1);
