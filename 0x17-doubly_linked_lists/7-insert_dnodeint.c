@@ -22,10 +22,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	while (cnt < idx)
 	{
 		if (tmp == NULL)
-		{
-			printf("null encountered in loop\n");
 			return (NULL);
-		}
 
 		cnt++;
 		tmp = tmp->next;
