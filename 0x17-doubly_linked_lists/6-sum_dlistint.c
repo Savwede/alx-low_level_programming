@@ -1,12 +1,13 @@
 #include "lists.h"
 
 /**
- * print_dlistint - print elements in a linked list
+ * sum_dlistint - sums up the values of all the
+ * nodes in a linked list
  *
  * @head: pointer to head first node
  *
  * Return: sum of nodes value
-*/
+ */
 
 int sum_dlistint(dlistint_t *head)
 {
